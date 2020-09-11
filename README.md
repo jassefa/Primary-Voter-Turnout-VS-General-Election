@@ -6,6 +6,7 @@ How do certain characteristics such as # of eligible voters, # of registered vot
 
 Hypotheses: We believe the voter turnout of the general election will be impacted by these characteristics, but we believe primary turnout will have the most impact.
 Finding data
+
 Data – Links:   Raw data was sourced from the United States Election project and the US Census Data website files
  	United States Election project   http://www.electproject.org/home/voter-turnout/voter-turnout-data
  	US Census Data website files  https://www.census.gov/topics/public-sector/voting/data/tables.html
