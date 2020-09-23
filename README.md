@@ -8,8 +8,8 @@ Hypotheses: We believe the voter turnout of the general election will be impacte
 Finding data
 
 Data – Links:   Raw data was sourced from the United States Election project and the US Census Data website files
- 	United States Election project   http://www.electproject.org/home/voter-turnout/voter-turnout-data
- 	US Census Data website files  https://www.census.gov/topics/public-sector/voting/data/tables.html
+ 	United States Election project   http://www.electproject.org/home/voter-turnout/voter-turnout-data#
+ 	US Census Data website files  https://www.census.gov/topics/public-sector/voting/data/tables.html#
 1. 1980-2014 Turnout Rates, 
 2. 2000, 2004, 2008, 2012, 2016 Primary Election data, 
 3. 2000, 2004, 2008, 2012, 2016 General Election data
