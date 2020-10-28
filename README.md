@@ -50,7 +50,7 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 -	We checked data but counting number of rows and columns and looked for null values. 
 -	Once we saw all data was appearing as it should, we exported data frame into CSV file Voter Final Clean. 
 
-### Jupyter Notebook: ML Linear Regression
+## Jupyter Notebook: ML Linear Regression
 
 -	Import Voter Final Clean Data
 -	Imported from sklearn.preprocessing import LabelEncoder in order to label code states column
@@ -62,10 +62,10 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 -	We did not want normalize year, state, and re-election values, since we were not looking into the numeric values themselves but looking to see if patterns existed with election year, state, or election type. 
 -	Because we did not want to normalize all x values, after scaling the columns we wanted, we reset x train and x test to scaled values.  I am still unsure if this was the best approach. 
 -	After Creating  a Linear Regression model and fitting it to the scaled training data, we  used X_test_scaled, y_test_scaled, and model.predict(X_test_scaled) to calculate MSE and R2
--	ML Linear Regression Model 1:
-    -o	Features: Election Year, State, Voter Eligible Population, Voters Registered, Primary Voter Turnout Count, Type of Election
-    -o	MSE: 0.05744684732134782 R2: 0.9914012628851123
-    -o	The MSE shows that our data values are dispersed closely to its mean, and our R2 shows a high positive correlation. 
+### ML Linear Regression Model 1:
+####  Features: Election Year, State, Voter Eligible Population, Voters Registered, Primary Voter Turnout Count, Type of Election
+####  MSE: 0.05744684732134782 R2: 0.9914012628851123
+-   The MSE shows that our data values are dispersed closely to its mean, and our R2 shows a high positive correlation. 
 -	We made predictions using a fitted model and plotted the difference between the model predicted values and actual y values, versus the model predicted values. 
 -	We also created a data frame comparing actual values, predicted values, training residuals and test residuals. 
 -	ML Linear Regression Model 2:
