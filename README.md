@@ -96,7 +96,17 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 -	The trend overall all for all variables is going up (VEP, Registered, General, and Primary) 
 -	Re-elections years have lower primary turnout, which makes sense, since incumbent is not being challenged. The turn out for general during re-election, however, continues to increase with registered voter increase and does not seem to be affected by primary turn out. 
 -	The one outlier is 2008 and 2012. 
-Scatter Plot
 -	As registrations increase, General Voter Turnout increase as well in most cases. 
 -	Interestingly, as registrations increased, it did not seem to have a dramatic affect on primary turnout. When looking at the high registration states with low primary turnout we did notice they were all caucus states. After further research, we realized all the extremely low primary voter turnouts were mostly caucus states. 
 -	It would be interesting to dig deeper to see if open/close primary affects turnout as well, we were not able to get that data. 
+
+![](/images/tabbar.png)
+
+![](/images/tab1.png)
+
+![](/images/tab2.png)
+
+![](/images/tab3.png)
+
+![](/images/tabscatter.png)
+
