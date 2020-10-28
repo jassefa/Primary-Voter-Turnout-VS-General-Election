@@ -60,7 +60,6 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 
 ### ML Linear Regression Model 1:
 ####  Features: Election Year, State, Voter Eligible Population, Voters Registered, Primary Voter Turnout Count, Type of Election
-####  MSE: 0.05744684732134782 R2: 0.9914012628851123
 
 ![](/images/model1.png)
 
@@ -70,7 +69,6 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 
 ### ML Linear Regression Model 2:
 #### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count (Removed Election Type & Registration)
-#### MSE: 0.09559354853215604          R2: 0.9856914028874513 
 
 ![](/images/model3.png)
 
@@ -78,7 +76,6 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 
 ### ML Linear Regression Model 3:
 #### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count, Type of Election (Removed Registration)
-#### MSE: 0.05744684732134782      R2: 0.9914012628851123 
 
 ![](/images/model2.png)
 
