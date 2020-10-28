@@ -91,7 +91,7 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 
 ### Tableau Visualization Conclusions
 
-[Tableau Visualization](https://public.tableau.com/profile/jemi8235#!/vizhome/voterturnout_15936712018620/Story1?publish=yes "Tableau Visualization")
+[Tableau Visualization](https://public.tableau.com/profile/jemi8235#!/vizhome/voterturnout_15936712018620/Story1?publish=yes "Full Tableau Visualization")
 
 -	The trend overall all for all variables is going up (VEP, Registered, General, and Primary) 
 -	Re-elections years have lower primary turnout, which makes sense, since incumbent is not being challenged. The turn out for general during re-election, however, continues to increase with registered voter increase and does not seem to be affected by primary turn out. 
