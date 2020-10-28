@@ -30,7 +30,6 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 -	It was then passed to subsequent python processes.
 
 ### Cleaning after Python Import: Jupyter Notebook: Voter_Turnout_JA
-
 -	Imported 2000-2016 General Election turnout rate and counted the number of rows to insure 255 rows. 
 -	We noticed we were having spacing issues with the data, where spaces were present after words and making it difficult to refer to specific columns. For this reason, we looked for a removed any spacing. 
 -	We renamed columns and filtered out unneeded columns 
@@ -41,6 +40,8 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 -	Second and final merge was done with Primary Election Results data. 
 -	We checked data but counting number of rows and columns and looked for null values. 
 -	Once we saw all data was appearing as it should, we exported data frame into CSV file Voter Final Clean. 
+
+![](/images/jptr1.png)
 
 ## Jupyter Notebook: ML Linear Regression
 
@@ -53,7 +54,10 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 -	We transformed the training and testing data using the X_scaler and y_scaler models to Normalize data.  
 -	We did not want normalize year, state, and re-election values, since we were not looking into the numeric values themselves but looking to see if patterns existed with election year, state, or election type. 
 -	Because we did not want to normalize all x values, after scaling the columns we wanted, we reset x train and x test to scaled values.  I am still unsure if this was the best approach. 
--	After Creating  a Linear Regression model and fitting it to the scaled training data, we  used X_test_scaled, y_test_scaled, and model.predict(X_test_scaled) to calculate MSE and R2
+-	After Creating a Linear Regression model and fitting it to the scaled training data, we used X_test_scaled, y_test_scaled, and model.predict(X_test_scaled) to calculate MSE and R2
+
+![](/images/jptr2.png)
+
 ### ML Linear Regression Model 1:
 ####  Features: Election Year, State, Voter Eligible Population, Voters Registered, Primary Voter Turnout Count, Type of Election
 ####  MSE: 0.05744684732134782 R2: 0.9914012628851123
