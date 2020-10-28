@@ -67,20 +67,23 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 - The MSE shows that our data values are dispersed closely to its mean, and our R2 shows a high positive correlation. 
 -	We made predictions using a fitted model and plotted the difference between the model predicted values and actual y values, versus the model predicted values. 
 -	We also created a data frame comparing actual values, predicted values, training residuals and test residuals. 
+
 ### ML Linear Regression Model 2:
-#### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count, Type of Election (Removed Registration)
-#### MSE: 0.05744684732134782      R2: 0.9914012628851123 
-
-![](/images/model2.png)
-
-- The MSE shows that our data values are dispersed midway between that of Model 1 and Model 2 relative to its mean, and our R2 shows a positive correlation midway between        that of Model 1 and Model 2. 
-### ML Linear Regression Model 3:
 #### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count (Removed Election Type & Registration)
 #### MSE: 0.09559354853215604          R2: 0.9856914028874513 
 
 ![](/images/model3.png)
 
 - As we reduce the # of features, we see the error rate continue to increase and our R2 correlation decrease.  
+
+### ML Linear Regression Model 3:
+#### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count, Type of Election (Removed Registration)
+#### MSE: 0.05744684732134782      R2: 0.9914012628851123 
+
+![](/images/model2.png)
+
+- The MSE shows that our data values are dispersed midway between that of Model 1 and Model 2 relative to its mean, and our R2 shows a positive correlation midway between        that of Model 1 and Model 2. 
+
 
 ### Machine Learning Conclusions: 
 
