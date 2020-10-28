@@ -22,20 +22,20 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 4. 1996-2016 Registered Voter data.  
 
 
-Cleaning before python import
-•	This data was restructured and standardized by importing it into XL.
-•	Any differences in format were corrected and any missing data was derived from rate of Population values and average rates. For example, if we were missing one year of turnout rate, we took the average of available data. 
-•	We decided there was no need for overseas data for general elections, since we did not have primary data to compare to, nor did we have which states those votes should be applied to.
-•	Due to missing data for primary rates per state, we selected (5) yrs. 2000, 2004, 2008, 2012, 2016 to maximize usefulness (presidential election data on 4yr cycle) and to ensure a manageable amount of data. 
-•	It was then passed to subsequent python processes.
+### Cleaning before python import
+-	This data was restructured and standardized by importing it into XL.
+-	Any differences in format were corrected and any missing data was derived from rate of Population values and average rates. For example, if we were missing one year of turnout rate, we took the average of available data. 
+-	We decided there was no need for overseas data for general elections, since we did not have primary data to compare to, nor did we have which states those votes should be applied to.
+-	Due to missing data for primary rates per state, we selected (5) yrs. 2000, 2004, 2008, 2012, 2016 to maximize usefulness (presidential election data on 4yr cycle) and to ensure a manageable amount of data. 
+-	It was then passed to subsequent python processes.
 Cleaning after Python Import
-•	Imported 2000-2016 General Election turnout rate and counted the number of rows to insure 255 rows. 
-•	Had some spacing issues with key data, where spaces were present after words and making it difficult to refer to specific columns. For this reason, we removed any blank spaces in key words (i.e.. Rhode Island, New Hampshire, etc.). 
-•	Renamed columns and filtered out unneeded columns 
-•	Read in Primary Election Turnout data from CSV file and followed above cleaning process. 
-•	Read in Registered Voter by State data from CSV file and followed above cleaning process. 
+-	Imported 2000-2016 General Election turnout rate and counted the number of rows to insure 255 rows. 
+-	Had some spacing issues with key data, where spaces were present after words and making it difficult to refer to specific columns. For this reason, we removed any blank spaces in key words (i.e.. Rhode Island, New Hampshire, etc.). 
+-	Renamed columns and filtered out unneeded columns 
+-	Read in Primary Election Turnout data from CSV file and followed above cleaning process. 
+-	Read in Registered Voter by State data from CSV file and followed above cleaning process. 
 
-Jupyter Notebook: Voter_Turnout_JA
+### Jupyter Notebook: Voter_Turnout_JA
 •	Imported 2000-2016 General Election turnout rate and counted the number of rows to insure 255 rows. 
 •	We noticed we were having spacing issues with the data, where spaces were present after words and making it difficult to refer to specific columns. For this reason, we looked for a removed any spacing. 
 •	We renamed columns and filtered out unneeded columns 
