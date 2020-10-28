@@ -61,24 +61,32 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 ### ML Linear Regression Model 1:
 ####  Features: Election Year, State, Voter Eligible Population, Voters Registered, Primary Voter Turnout Count, Type of Election
 ####  MSE: 0.05744684732134782 R2: 0.9914012628851123
--   The MSE shows that our data values are dispersed closely to its mean, and our R2 shows a high positive correlation. 
+
+![](/images/model1.png)
+
+- The MSE shows that our data values are dispersed closely to its mean, and our R2 shows a high positive correlation. 
 -	We made predictions using a fitted model and plotted the difference between the model predicted values and actual y values, versus the model predicted values. 
 -	We also created a data frame comparing actual values, predicted values, training residuals and test residuals. 
 ### ML Linear Regression Model 2:
 #### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count, Type of Election (Removed Registration)
 #### MSE: 0.05744684732134782      R2: 0.9914012628851123 
+
+![](/images/model2.png)
+
 - The MSE shows that our data values are dispersed midway between that of Model 1 and Model 2 relative to its mean, and our R2 shows a positive correlation midway between        that of Model 1 and Model 2. 
 ### ML Linear Regression Model 3:
 #### Features: Election Year, State, Voter Eligible Population, Primary Voter Turnout Count, General Turnout Count (Removed Election Type & Registration)
 #### MSE: 0.09559354853215604          R2: 0.9856914028874513 
-  o	As we reduce the # of features, we see the error rate continue to increase and our R2 correlation decrease.  
+
+![](/images/model3.png)
+
+- As we reduce the # of features, we see the error rate continue to increase and our R2 correlation decrease.  
 
 ### Machine Learning Conclusions: 
-#### Relations, Correlations, Predictions
+
 -	While our R2 indicated high correlation in all 3 models, we saw a notable increase in prediction error rate as we reduced the number of features. 
--	Correlation is often interpreted as causation which is a big misconception. Correlation between variables does NOT indicate causation. Any highly correlated variable should be examined and thought of carefully.  Correlations are very useful in many applications, especially when conducting regression analysis. However, it should not be mixed with causality and misinterpreted in any way. You should also always check the correlation between different variables in your dataset and gather some insights as part of your exploration and analysis.
 -	We found General Election Voter Turnout was affected by the characteristics that we identified. However, Primary Turnout did not have the greatest impact, instead, Voter Registration had the greatest correlation with General Voter Turnout. 
--	If we had more time, we would investigate the impact in Primary turnout based on Primary/Caucus, Open/Close Primary, and many other factors that can give us more insight. 
+-	If we had more time, we would investigate the impact in Primary turnout based on Primary/Caucus, Open/Close Primary, and many other factors to gain more insight. 
 
 
 ### Tableau Visualization Conclusions
