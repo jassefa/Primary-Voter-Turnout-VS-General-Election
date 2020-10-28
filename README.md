@@ -1,4 +1,4 @@
-# Primary Voter turnnout and its Impact on General Election 
+# Primary Voter Turnnout and its Impact on General Election 
 
 ![](images/frontpic.png)
 
