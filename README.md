@@ -1,5 +1,7 @@
 # Primary Voter turnnout and its Impact on General Election 
 
+![](images/frontpic.png)
+
 #### Questions: Does primary election turnout predict general election turnout? How do certain characteristics such as # of eligible voters, # of registered voters, election type (re-election vs new election) and # of voters by state have an impact on general elections?
 
 #### Hypotheses: We believe the voter turnout of the general election will be impacted by all the characteristics listed, but primary turnout will have the most impact.
