@@ -102,8 +102,6 @@ US Census Data website files  https://www.census.gov/topics/public-sector/voting
 
 ![](/images/tabbar.png)
 
-![](/images/tab1.png)
-
 ![](/images/tab2.png)
 
 ![](/images/tab3.png)
